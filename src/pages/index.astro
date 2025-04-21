@@ -1,17 +1,22 @@
 ---
-import Navigation from "../components/Navigation.astro"
+import "../styles/global.css";
+import Navigation from "../components/Navigation.astro";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Hello</title>
-	</head>
-  <body>
-    <Navigation/>
-   <h1>Welcome to my site</h1>
-	</body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>archipelago</title>
+    </head>
+    <body>
+        <Navigation />
+        <h1
+            class="text-6xl text-center underline decoration-dotted hover:decoration-green-600"
+        >
+            ar·chi·pel·a·go
+        </h1>
+    </body>
 </html>
