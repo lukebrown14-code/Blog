@@ -1,0 +1,11 @@
+---
+const { frontmatter } = Astro.props;
+import Navigation from "../components/Navigation.astro";
+---
+
+<meta charset="utf-8" />
+<Navigation />
+
+<h1>{frontmatter.title}</h1>
+<p>Written by LUKE {frontmatter.author}</p>
+<slot />

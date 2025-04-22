@@ -1,27 +1,21 @@
 ---
-title: 'My First Blog Post'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+layout: ../../layouts/blogLayout.astro
+title: "What is Absurdism"
+pubDate: 2025-22-04
+description: "Understanding the absurd"
+author: "Luke Brown"
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+  url: "https://docs.astro.build/assets/rose.webp"
+  alt: "The Astro logo on a dark background with a pink glow."
+tags: ["philosophy", "absurdism"]
 ---
-# My First Blog Post
 
-Published on: 2022-07-01
+Absurdism is a philosophy in which life derives no inherit meaning. We are just on this earth for no real reason. The "absurd" comes from the tension where human have a desire to find meaning in this world but there is nothing but chaos and a lack of purposes.
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Albert Camus was one of the main developer of this idea. He argues that instead of the despair of realising there is no meaning in life, we should embrace the freedom it gives us. It shouldn't lead us down a path of Nihilism. He claims there are three response to absurdism:
 
-## What I've accomplished
+1. **Suicide**: to escape the conflict
+2. **Leap of Faith**: finding meaning in faith or an idea
+3. **Acceptance**: live life expecting the absurd
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
-
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
-
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+In summary Camus idea is about facing life's chaos, struggle and difficulty with courage. Rejecting the path of less resistance. He writes famously, "One must imagine Sisyphus happy". Here he is saying happiness in life comes from the hardship and struggle that life throws at you. He makes call to live a life fully even though nothing matter and universe doesn't care
