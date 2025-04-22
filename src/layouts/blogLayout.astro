@@ -1,10 +1,10 @@
 ---
 const { frontmatter } = Astro.props;
-import Navigation from "../components/Navigation.astro";
+import Title from "../components/title.astro";
 ---
 
 <meta charset="utf-8" />
-<Navigation />
+<Title />
 
 <h1>{frontmatter.title}</h1>
 <p>Written by LUKE {frontmatter.author}</p>
