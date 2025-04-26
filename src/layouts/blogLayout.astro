@@ -6,6 +6,8 @@ import Title from "../components/title.astro";
 <meta charset="utf-8" />
 <Title />
 
-<h1>{frontmatter.title}</h1>
-<p>Written by LUKE {frontmatter.author}</p>
-<slot />
+<div class="p-18">
+    <h1 class="text-4xl text-left">{frontmatter.title}</h1>
+    <p>{frontmatter.author}</p>
+    <slot class="p-6" />
+</div>
