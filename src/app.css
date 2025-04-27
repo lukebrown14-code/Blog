@@ -1,2 +1,10 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+@tailwind utilities;
+
+@layer components {
+	.title-hover {
+		@apply hover:underline decoration-2 underline-offset-2 decoration-green-800
+    transition-all duration-1000;
+	}
+}
