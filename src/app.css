@@ -4,7 +4,15 @@
 
 @layer components {
 	.title-hover {
-		@apply hover:underline decoration-2 underline-offset-2 decoration-green-800
+		@apply hover:italic underline decoration-2 underline-offset-2 decoration-green-800
     transition-all duration-1000;
+	}
+
+	.title {
+		@apply text-stone-900 font-bold;
+	}
+
+	.subTitle {
+		@apply font-light text-stone-700 opacity-70;
 	}
 }
