@@ -11,7 +11,7 @@
 				<a href="/">AR·CHI·PEL·AGO</a>
 			</h1>
 			<h2 id="about" class="text-lg title-hover subTitle">
-				<a href="/about">Luke Brown</a>
+				<a href="/about">Luke Brown Abour</a>
 			</h2>
 		</div>
 	</div>
